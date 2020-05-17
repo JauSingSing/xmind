@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node server",
+  "author": "Qiu",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
