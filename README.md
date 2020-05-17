@@ -56,13 +56,12 @@
 ```
 ## 运行环境
 ---
-操作系统：Windows
-运行环境：node
-需要工具：MongoDB(v3.2以上)
+操作系统：Windows  
+运行环境：node  
+需要工具：MongoDB(v3.2以上)  
 
 ## 如何运行
 ---
-安装，导入数据，运行后台，安装依赖，运行前端  
 1.安装MongoDB、nodejs  
 2.命令行运行 mongoimport --type csv --headerline --db xmind --file “文件路径/文件名.csv” 命令分别导入bill和categories两个csv文件数据  
 3.在服务端执行 npm install 安装依赖，完成后执行 node index.js 运行  
