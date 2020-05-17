@@ -1,8 +1,8 @@
 ## 客户端目录 front_end
 ---
 ```
-┌─build										// webpack配置文件   
-│      build.js   
+┌─build                                        // webpack配置文件  
+│      build.js  
 │      check-versions.js  
 │      logo.png  
 │      utils.js  
@@ -10,37 +10,37 @@
 │      webpack.base.conf.js  
 │      webpack.dev.conf.js  
 │      webpack.prod.conf.js  
-│      
-├─config									// vue配置文件  
+│  
+├─config                                       // vue配置文件  
 │      dev.env.js  
 │      index.js  
 │      prod.env.js  
 │      test.env.js  
-│      
+│  
 ├─src  
-│  │  App.vue								// 根组件  
+│  │  App.vue                                  // 根组件  
 │  │  main.js  
-│  │    
-│  ├─assets									// 静态资源  
+│  │  
+│  ├─assets                                    // 静态资源  
 │  │  │  logo.png  
-│  │  │    
-│  │  └─style								// 样式文件  
+│  │  │  
+│  │  └─style                                  // 样式文件  
 │  │          reset.css  
-│  │          
-│  ├─components								// 组件目录  
-│  ├─pages									// 页面目录  
-│  │      index.vue							// 主页面（核心代码）  
-│  │      
-│  ├─resource								// 资源目录   
+│  │  
+│  ├─components                                // 组件目录  
+│  ├─pages                                     // 页面目录  
+│  │      index.vue                            // 主页面（核心代码）  
+│  │  
+│  ├─resource                                  // 资源目录  
 │  │      bill.csv  
 │  │      categories.csv  
-│  │      
-│  ├─router									// 路由配置  
+│  │  
+│  ├─router                                    // 路由配置  
 │  │      index.js
-│  │      
-│  └─utils									// 公用函数目录  
-│          format.js						// 一些format方法  
-│          
+│  │  
+│  └─utils                                     // 公用函数目录  
+│          format.js                           // 一些format方法  
+│  
 └─static  
         .gitkeep  
 ```
@@ -48,12 +48,12 @@
 ## 服务端目录 server
 ---
 ```
-│  index.js									// 服务端脚本  
+│  index.js                                    // 服务端脚本  
 │  package.json  
 │  
 └─router  
-        router.js							// 路由配置  
-``` 
+        router.js                              // 路由配置  
+```
 ## 运行环境
 ---
 操作系统：Windows
